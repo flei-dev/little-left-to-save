@@ -109,4 +109,4 @@ Code: MIT (see `LICENSE`). Derived data and measurements created for this study:
 
 ## Integrity
 
-`MANIFEST.sha256` lists the SHA-256 hash of every file. Check with `sha256sum -c MANIFEST.sha256`.
+`MANIFEST.sha256` lists the SHA-256 hash of every file as stored in this repository (text files with LF line endings). Check with `sha256sum -c MANIFEST.sha256` on a Linux or macOS clone; Git for Windows may convert line endings on checkout.
