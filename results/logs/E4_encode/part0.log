@@ -1,0 +1,146 @@
+46 videos found, 16 in part 0/3
+[1/16] -0AsJK2tcKc  02:30:24
+-0AsJK2tcKc: 1920x1080 29.970 fps 381.3 s -> 190 chunks of 2 s, codec av1
+    300k 426x240: real    294 kbps, VMAF  26.60, encode   52.8 s, vmaf  312.4 s
+    750k 640x360: real    734 kbps, VMAF  56.54, encode  102.3 s, vmaf  397.4 s
+   1200k 854x480: real   1157 kbps, VMAF  71.32, encode  132.5 s, vmaf  330.1 s
+   1850k 1280x720: real   1811 kbps, VMAF  82.47, encode  190.2 s, vmaf  365.8 s
+   2850k 1920x1080: real   2775 kbps, VMAF  89.91, encode  256.6 s, vmaf  291.8 s
+   4300k 1920x1080: real   4181 kbps, VMAF  93.72, encode  368.6 s, vmaf  266.7 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/-0AsJK2tcKc/av1/chunks.csv  (51.1 min for 380 s of video, 8.07 s per video-second)
+[2/16] 9-P5UmYMg6U  03:21:35
+9-P5UmYMg6U: 1920x1080 23.976 fps 226.9 s -> 113 chunks of 2 s, codec av1
+    300k 426x240: real    267 kbps, VMAF  45.69, encode   25.0 s, vmaf  124.9 s
+    750k 640x360: real    575 kbps, VMAF  71.61, encode   25.6 s, vmaf  147.5 s
+   1200k 854x480: real    852 kbps, VMAF  80.62, encode   49.1 s, vmaf  135.8 s
+   1850k 1280x720: real   1370 kbps, VMAF  89.85, encode   63.0 s, vmaf  146.5 s
+   2850k 1920x1080: real   2069 kbps, VMAF  94.92, encode  161.1 s, vmaf  169.9 s
+   4300k 1920x1080: real   3000 kbps, VMAF  96.70, encode  104.3 s, vmaf  129.8 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/9-P5UmYMg6U/av1/chunks.csv  (21.4 min for 226 s of video, 5.67 s per video-second)
+[3/16] C_sb2KYbi-4  03:42:59
+C_sb2KYbi-4: 1920x1080 25.000 fps 600.0 s -> 300 chunks of 2 s, codec av1
+    300k 426x240: real    297 kbps, VMAF  34.35, encode  101.2 s, vmaf  380.4 s
+    750k 640x360: real    714 kbps, VMAF  65.25, encode  170.0 s, vmaf  403.1 s
+   1200k 854x480: real    985 kbps, VMAF  77.05, encode  171.1 s, vmaf  368.0 s
+   1850k 1280x720: real   1647 kbps, VMAF  89.51, encode  193.9 s, vmaf  618.0 s
+   2850k 1920x1080: real   2096 kbps, VMAF  95.65, encode  289.6 s, vmaf  377.0 s
+   4300k 1920x1080: real   2982 kbps, VMAF  97.86, encode  379.4 s, vmaf  399.2 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/C_sb2KYbi-4/av1/chunks.csv  (64.2 min for 600 s of video, 6.42 s per video-second)
+[4/16] DPumdBzLxqc  04:47:14
+DPumdBzLxqc: 1920x1080 25.000 fps 600.0 s -> 300 chunks of 2 s, codec av1
+    300k 426x240: real    296 kbps, VMAF  19.14, encode  113.9 s, vmaf  409.1 s
+    750k 640x360: real    741 kbps, VMAF  45.88, encode  164.6 s, vmaf  502.8 s
+   1200k 854x480: real   1184 kbps, VMAF  62.09, encode  201.6 s, vmaf  396.8 s
+   1850k 1280x720: real   1829 kbps, VMAF  77.20, encode  225.5 s, vmaf  419.8 s
+   2850k 1920x1080: real   2825 kbps, VMAF  89.92, encode  389.5 s, vmaf  448.4 s
+   4300k 1920x1080: real   4261 kbps, VMAF  95.15, encode  392.5 s, vmaf  411.5 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/DPumdBzLxqc/av1/chunks.csv  (67.9 min for 600 s of video, 6.79 s per video-second)
+[5/16] F84tQ2ZXvFc  05:55:15
+F84tQ2ZXvFc: 1920x1080 24.000 fps 600.0 s -> 299 chunks of 2 s, codec av1
+    300k 426x240: real    226 kbps, VMAF  43.65, encode  116.7 s, vmaf  354.3 s
+    750k 640x360: real    507 kbps, VMAF  68.46, encode  116.6 s, vmaf  331.5 s
+   1200k 854x480: real    793 kbps, VMAF  79.86, encode  119.8 s, vmaf  352.6 s
+   1850k 1280x720: real   1243 kbps, VMAF  89.27, encode  178.5 s, vmaf  557.5 s
+   2850k 1920x1080: real   1885 kbps, VMAF  94.58, encode  512.2 s, vmaf  378.3 s
+   4300k 1920x1080: real   2786 kbps, VMAF  95.79, encode  411.0 s, vmaf  403.7 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/F84tQ2ZXvFc/av1/chunks.csv  (63.9 min for 598 s of video, 6.41 s per video-second)
+[6/16] hvp7KU5MPak  06:59:13
+hvp7KU5MPak: 1920x1080 30.000 fps 598.2 s -> 299 chunks of 2 s, codec av1
+    300k 426x240: real    264 kbps, VMAF  34.72, encode  105.1 s, vmaf  492.8 s
+    750k 640x360: real    612 kbps, VMAF  59.67, encode  108.9 s, vmaf  658.9 s
+   1200k 854x480: real    915 kbps, VMAF  72.31, encode  151.8 s, vmaf  474.8 s
+   1850k 1280x720: real   1694 kbps, VMAF  84.34, encode  320.4 s, vmaf  522.9 s
+   2850k 1920x1080: real   2553 kbps, VMAF  91.02, encode  457.3 s, vmaf  538.2 s
+   4300k 1920x1080: real   3622 kbps, VMAF  92.83, encode  412.9 s, vmaf  547.0 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/hvp7KU5MPak/av1/chunks.csv  (79.8 min for 598 s of video, 8.01 s per video-second)
+[7/16] lqiN98z6Dak  08:19:11
+lqiN98z6Dak: 1920x1080 24.000 fps 193.0 s -> 96 chunks of 2 s, codec av1
+    300k 426x240: real    262 kbps, VMAF  40.51, encode   26.7 s, vmaf  127.7 s
+    750k 640x360: real    503 kbps, VMAF  66.45, encode   40.9 s, vmaf  112.1 s
+   1200k 854x480: real    764 kbps, VMAF  78.84, encode   55.3 s, vmaf  132.8 s
+   1850k 1280x720: real   1185 kbps, VMAF  88.91, encode   91.8 s, vmaf  127.6 s
+   2850k 1920x1080: real   1744 kbps, VMAF  94.68, encode  122.7 s, vmaf  122.5 s
+   4300k 1920x1080: real   2584 kbps, VMAF  96.33, encode  154.2 s, vmaf  119.7 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/lqiN98z6Dak/av1/chunks.csv  (20.6 min for 192 s of video, 6.43 s per video-second)
+[8/16] mmAlq8waCj0  08:39:46
+mmAlq8waCj0: 1920x1080 59.940 fps 223.3 s -> 111 chunks of 2 s, codec av1
+    300k 426x240: real    292 kbps, VMAF  23.71, encode   75.8 s, vmaf  381.4 s
+    750k 640x360: real    726 kbps, VMAF  53.92, encode  101.2 s, vmaf  408.3 s
+   1200k 854x480: real   1158 kbps, VMAF  68.98, encode  179.9 s, vmaf  364.3 s
+   1850k 1280x720: real   1785 kbps, VMAF  80.98, encode  180.0 s, vmaf  420.6 s
+   2850k 1920x1080: real   2740 kbps, VMAF  90.24, encode  423.6 s, vmaf  350.1 s
+   4300k 1920x1080: real   4123 kbps, VMAF  93.49, encode  329.9 s, vmaf  426.0 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/mmAlq8waCj0/av1/chunks.csv  (60.7 min for 222 s of video, 16.40 s per video-second)
+[9/16] RezHuw6l5vg  09:40:32
+RezHuw6l5vg: 1920x1080 25.000 fps 603.3 s -> 301 chunks of 2 s, codec av1
+    300k 426x240: real    297 kbps, VMAF  21.92, encode  116.6 s, vmaf  447.1 s
+    750k 640x360: real    742 kbps, VMAF  51.85, encode  159.2 s, vmaf  436.2 s
+   1200k 854x480: real   1170 kbps, VMAF  67.34, encode  176.8 s, vmaf  452.4 s
+   1850k 1280x720: real   1832 kbps, VMAF  81.07, encode  319.4 s, vmaf  500.7 s
+   2850k 1920x1080: real   2828 kbps, VMAF  91.84, encode  374.1 s, vmaf  439.4 s
+   4300k 1920x1080: real   4257 kbps, VMAF  96.38, encode  479.0 s, vmaf  481.2 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/RezHuw6l5vg/av1/chunks.csv  (73.0 min for 602 s of video, 7.28 s per video-second)
+[10/16] tears_of_steel_720p  10:53:40
+tears_of_steel_720p: 1280x534 24.000 fps 734.2 s -> 367 chunks of 2 s, codec av1
+    300k 426x178: real    240 kbps, VMAF  65.17, encode   62.3 s, vmaf  165.5 s
+    750k 640x268: real    499 kbps, VMAF  83.56, encode   76.9 s, vmaf  194.3 s
+   1200k 854x356: real    782 kbps, VMAF  91.32, encode  148.4 s, vmaf  216.3 s
+   1850k 1280x534: real   1305 kbps, VMAF  95.58, encode  223.1 s, vmaf  190.4 s
+   2850k 1280x534: real   2009 kbps, VMAF  97.04, encode  214.8 s, vmaf  158.4 s
+   4300k 1280x534: real   3059 kbps, VMAF  97.89, encode  180.2 s, vmaf  166.1 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/tears_of_steel_720p/av1/chunks.csv  (33.3 min for 734 s of video, 2.72 s per video-second)
+[11/16] tX-TooRdaXk  11:27:02
+tX-TooRdaXk: 1920x1080 30.000 fps 482.2 s -> 241 chunks of 2 s, codec av1
+    300k 426x240: real    294 kbps, VMAF  32.45, encode   64.2 s, vmaf  405.1 s
+    750k 640x360: real    729 kbps, VMAF  58.79, encode  128.7 s, vmaf  438.2 s
+   1200k 854x480: real   1102 kbps, VMAF  70.44, encode  140.1 s, vmaf  441.5 s
+   1850k 1280x720: real   1801 kbps, VMAF  80.39, encode  174.7 s, vmaf  378.2 s
+   2850k 1920x1080: real   2503 kbps, VMAF  85.78, encode  436.1 s, vmaf  437.5 s
+   4300k 1920x1080: real   3540 kbps, VMAF  89.80, encode  438.4 s, vmaf  433.6 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/tX-TooRdaXk/av1/chunks.csv  (65.3 min for 482 s of video, 8.13 s per video-second)
+[12/16] vbrsEhf2OXY  12:32:24
+vbrsEhf2OXY: 1920x1080 60.000 fps 599.4 s -> 299 chunks of 2 s, codec av1
+    300k 426x240: real    251 kbps, VMAF  46.23, encode  215.7 s, vmaf  927.6 s
+    750k 640x360: real    540 kbps, VMAF  66.32, encode  281.6 s, vmaf  955.7 s
+   1200k 854x480: real    802 kbps, VMAF  75.76, encode  310.2 s, vmaf 1017.0 s
+   1850k 1280x720: real   1331 kbps, VMAF  84.61, encode  497.8 s, vmaf 1092.9 s
+   2850k 1920x1080: real   1900 kbps, VMAF  89.67, encode  769.8 s, vmaf 1039.4 s
+   4300k 1920x1080: real   2853 kbps, VMAF  92.18, encode  842.0 s, vmaf  938.1 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/vbrsEhf2OXY/av1/chunks.csv  (148.1 min for 598 s of video, 14.86 s per video-second)
+[13/16] ViHdzStmrBo  15:00:41
+ViHdzStmrBo: 1920x1080 59.940 fps 249.6 s -> 124 chunks of 2 s, codec av1
+    300k 426x240: real    296 kbps, VMAF  30.94, encode   82.4 s, vmaf  469.5 s
+    750k 640x360: real    736 kbps, VMAF  58.40, encode  111.9 s, vmaf  403.5 s
+   1200k 854x480: real   1120 kbps, VMAF  70.79, encode  161.2 s, vmaf  470.7 s
+   1850k 1280x720: real   1820 kbps, VMAF  81.57, encode  242.1 s, vmaf  450.3 s
+   2850k 1920x1080: real   2810 kbps, VMAF  88.29, encode  402.4 s, vmaf  411.3 s
+   4300k 1920x1080: real   4220 kbps, VMAF  90.47, encode  347.9 s, vmaf  450.6 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/ViHdzStmrBo/av1/chunks.csv  (66.7 min for 248 s of video, 16.14 s per video-second)
+[14/16] xFFs9UgOAlE  16:07:29
+xFFs9UgOAlE: 1920x1080 29.970 fps 600.0 s -> 300 chunks of 2 s, codec av1
+    300k 426x240: real    258 kbps, VMAF  72.20, encode  125.2 s, vmaf  440.7 s
+    750k 640x360: real    551 kbps, VMAF  90.29, encode  118.6 s, vmaf  500.1 s
+   1200k 854x480: real    804 kbps, VMAF  94.87, encode  122.8 s, vmaf  495.3 s
+   1850k 1280x720: real   1214 kbps, VMAF  96.47, encode  236.8 s, vmaf  533.8 s
+   2850k 1920x1080: real   1873 kbps, VMAF  96.16, encode  499.0 s, vmaf  481.7 s
+   4300k 1920x1080: real   2764 kbps, VMAF  96.39, encode  439.7 s, vmaf  454.5 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/xFFs9UgOAlE/av1/chunks.csv  (74.1 min for 600 s of video, 7.41 s per video-second)
+[15/16] YWqU_QwCYCQ  17:21:43
+YWqU_QwCYCQ: 1920x1080 25.000 fps 600.0 s -> 300 chunks of 2 s, codec av1
+    300k 426x240: real    252 kbps, VMAF  42.70, encode  108.7 s, vmaf  359.3 s
+    750k 640x360: real    508 kbps, VMAF  68.09, encode  104.9 s, vmaf  381.9 s
+   1200k 854x480: real    792 kbps, VMAF  79.85, encode  105.0 s, vmaf  369.8 s
+   1850k 1280x720: real   1290 kbps, VMAF  89.73, encode  241.8 s, vmaf  469.2 s
+   2850k 1920x1080: real   2055 kbps, VMAF  96.12, encode  419.5 s, vmaf  451.8 s
+   4300k 1920x1080: real   2839 kbps, VMAF  96.56, encode  398.1 s, vmaf  424.2 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/YWqU_QwCYCQ/av1/chunks.csv  (63.9 min for 600 s of video, 6.39 s per video-second)
+[16/16] ZqjteWVniLQ  18:25:42
+ZqjteWVniLQ: 1920x1080 60.000 fps 600.0 s -> 300 chunks of 2 s, codec av1
+    300k 426x240: real    296 kbps, VMAF  25.83, encode  225.8 s, vmaf 1003.4 s
+    750k 640x360: real    740 kbps, VMAF  56.55, encode  248.0 s, vmaf 1096.5 s
+   1200k 854x480: real   1183 kbps, VMAF  71.43, encode  329.5 s, vmaf 1001.3 s
+   1850k 1280x720: real   1824 kbps, VMAF  82.80, encode  599.1 s, vmaf  987.4 s
+   2850k 1920x1080: real   2808 kbps, VMAF  91.09, encode  937.9 s, vmaf 1056.9 s
+   4300k 1920x1080: real   4214 kbps, VMAF  93.61, encode 1083.5 s, vmaf 1047.3 s
+done: /home/ubuntu/TMM/codec_gate/tmm_c/work/encoded_av1/ZqjteWVniLQ/av1/chunks.csv  (160.3 min for 600 s of video, 16.03 s per video-second)
+all done

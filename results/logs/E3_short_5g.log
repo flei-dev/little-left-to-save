@@ -1,0 +1,13 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data.pkl --form short --split main --traces traces/5g/test --spt 8 --seed0 9200 --models modern_5g --sets base --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_short_5g --workers 31 --drl_runs /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.02_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.02_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.02_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.1_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.1_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.1_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.4_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.4_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam0.4_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam1.6_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam1.6_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_5g_lam1.6_s2
+E3_short_5g: 1/7 blocks  1.0 min  ETA 6 min
+E3_short_5g: 2/7 blocks  1.7 min  ETA 4 min
+E3_short_5g: 3/7 blocks  2.3 min  ETA 3 min
+E3_short_5g: 4/7 blocks  2.9 min  ETA 2 min
+E3_short_5g: 5/7 blocks  3.3 min  ETA 1 min
+E3_short_5g: 6/7 blocks  5.0 min  ETA 1 min
+E3_short_5g: 7/7 blocks  7.6 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze drl /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_short_5g --boot 500
+    model  n_pairs  n_drl  S_drl_vs_rules  coverage  G_drl  qtop_rules  qtop_drl
+modern_5g      368     12          -0.174     0.111    0.0       106.5    77.649

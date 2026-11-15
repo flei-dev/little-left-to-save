@@ -1,0 +1,2 @@
+model,n_pairs,n_drl,S_drl_vs_rules,coverage,G_drl,qtop_rules,qtop_drl,S_drl_vs_rules_lo,S_drl_vs_rules_hi,coverage_lo,coverage_hi,G_drl_lo,G_drl_hi,qtop_rules_lo,qtop_rules_hi,qtop_drl_lo,qtop_drl_hi
+modern_5g,368,12,-0.1735124971318811,0.1111111111111111,0.0,106.50029984764431,77.6489926421124,-0.18271560440163626,-0.16296356563599093,0.1,0.125,0.0,0.0,105.63276204544566,107.38555336257686,76.75798769554366,78.8679885417223

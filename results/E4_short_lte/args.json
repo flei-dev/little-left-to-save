@@ -1,0 +1,24 @@
+{
+ "data": "work/data_codec/svs_data_codec.pkl",
+ "form": "short",
+ "split": "main",
+ "traces": "traces/lte/test",
+ "spt": 3,
+ "seed0": 9300,
+ "n_traces": 0,
+ "models": "codec",
+ "sets": [
+  "base"
+ ],
+ "families": [],
+ "modes": [
+  "h264",
+  "av1",
+  "both"
+ ],
+ "quality": "phone",
+ "watch": "real",
+ "drl_runs": [],
+ "workers": 31,
+ "out": "/home/ubuntu/TMM/codec_gate/tmm_c/results/E4_short_lte"
+}

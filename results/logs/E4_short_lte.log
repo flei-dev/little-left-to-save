@@ -1,0 +1,82 @@
+
+$ /usr/bin/python3 -m cstudy.run --data work/data_codec/svs_data_codec.pkl --form short --split main --traces traces/lte/test --spt 3 --seed0 9300 --models codec --sets base --out /home/ubuntu/TMM/codec_gate/tmm_c/results/E4_short_lte --workers 31 --modes h264,av1,both
+E4_short_lte: 3/198 blocks  17.1 min  ETA 1108 min
+E4_short_lte: 6/198 blocks  17.1 min  ETA 547 min
+E4_short_lte: 9/198 blocks  17.1 min  ETA 360 min
+E4_short_lte: 12/198 blocks  17.2 min  ETA 267 min
+E4_short_lte: 15/198 blocks  17.4 min  ETA 212 min
+E4_short_lte: 18/198 blocks  17.5 min  ETA 175 min
+E4_short_lte: 21/198 blocks  18.7 min  ETA 158 min
+E4_short_lte: 24/198 blocks  20.2 min  ETA 147 min
+E4_short_lte: 27/198 blocks  20.3 min  ETA 129 min
+E4_short_lte: 30/198 blocks  20.4 min  ETA 114 min
+E4_short_lte: 33/198 blocks  25.0 min  ETA 125 min
+E4_short_lte: 36/198 blocks  26.7 min  ETA 120 min
+E4_short_lte: 39/198 blocks  26.9 min  ETA 110 min
+E4_short_lte: 42/198 blocks  27.0 min  ETA 100 min
+E4_short_lte: 45/198 blocks  27.6 min  ETA 94 min
+E4_short_lte: 48/198 blocks  27.9 min  ETA 87 min
+E4_short_lte: 51/198 blocks  29.0 min  ETA 84 min
+E4_short_lte: 54/198 blocks  29.5 min  ETA 79 min
+E4_short_lte: 57/198 blocks  29.7 min  ETA 73 min
+E4_short_lte: 60/198 blocks  30.0 min  ETA 69 min
+E4_short_lte: 63/198 blocks  30.1 min  ETA 65 min
+E4_short_lte: 66/198 blocks  30.4 min  ETA 61 min
+E4_short_lte: 69/198 blocks  30.6 min  ETA 57 min
+E4_short_lte: 72/198 blocks  30.7 min  ETA 54 min
+E4_short_lte: 75/198 blocks  30.9 min  ETA 51 min
+E4_short_lte: 78/198 blocks  31.8 min  ETA 49 min
+E4_short_lte: 81/198 blocks  32.3 min  ETA 47 min
+E4_short_lte: 84/198 blocks  32.5 min  ETA 44 min
+E4_short_lte: 87/198 blocks  32.6 min  ETA 42 min
+E4_short_lte: 90/198 blocks  32.8 min  ETA 39 min
+E4_short_lte: 93/198 blocks  33.1 min  ETA 37 min
+E4_short_lte: 96/198 blocks  33.5 min  ETA 36 min
+E4_short_lte: 99/198 blocks  34.8 min  ETA 35 min
+E4_short_lte: 102/198 blocks  35.3 min  ETA 33 min
+E4_short_lte: 105/198 blocks  35.4 min  ETA 31 min
+E4_short_lte: 108/198 blocks  36.0 min  ETA 30 min
+E4_short_lte: 111/198 blocks  36.8 min  ETA 29 min
+E4_short_lte: 114/198 blocks  36.9 min  ETA 27 min
+E4_short_lte: 117/198 blocks  37.2 min  ETA 26 min
+E4_short_lte: 120/198 blocks  37.4 min  ETA 24 min
+E4_short_lte: 123/198 blocks  37.5 min  ETA 23 min
+E4_short_lte: 126/198 blocks  37.9 min  ETA 22 min
+E4_short_lte: 129/198 blocks  38.5 min  ETA 21 min
+E4_short_lte: 132/198 blocks  39.8 min  ETA 20 min
+E4_short_lte: 135/198 blocks  47.2 min  ETA 22 min
+E4_short_lte: 138/198 blocks  48.3 min  ETA 21 min
+E4_short_lte: 141/198 blocks  48.8 min  ETA 20 min
+E4_short_lte: 144/198 blocks  49.7 min  ETA 19 min
+E4_short_lte: 147/198 blocks  50.1 min  ETA 17 min
+E4_short_lte: 150/198 blocks  50.4 min  ETA 16 min
+E4_short_lte: 153/198 blocks  51.1 min  ETA 15 min
+E4_short_lte: 156/198 blocks  51.9 min  ETA 14 min
+E4_short_lte: 159/198 blocks  52.2 min  ETA 13 min
+E4_short_lte: 162/198 blocks  52.8 min  ETA 12 min
+E4_short_lte: 165/198 blocks  53.2 min  ETA 11 min
+E4_short_lte: 168/198 blocks  53.5 min  ETA 10 min
+E4_short_lte: 171/198 blocks  54.0 min  ETA 9 min
+E4_short_lte: 174/198 blocks  54.1 min  ETA 7 min
+E4_short_lte: 177/198 blocks  54.5 min  ETA 6 min
+E4_short_lte: 180/198 blocks  54.7 min  ETA 5 min
+E4_short_lte: 183/198 blocks  54.9 min  ETA 5 min
+E4_short_lte: 186/198 blocks  55.3 min  ETA 4 min
+E4_short_lte: 189/198 blocks  55.6 min  ETA 3 min
+E4_short_lte: 192/198 blocks  55.8 min  ETA 2 min
+E4_short_lte: 195/198 blocks  56.0 min  ETA 1 min
+E4_short_lte: 198/198 blocks  58.0 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze codec /home/ubuntu/TMM/codec_gate/tmm_c/results/E4_short_lte --boot 500
+                   model  n_pairs  av1_vs_h264  both_vs_bestfixed  both_vs_caprule  greedy_vs_h264  data_both_vs_h264  data_av1_vs_h264  av1_frac_both_aware  av1_frac_both_unaware
+av1coconut_flat_lte_meas      378       -0.949              0.069            0.019          -0.342              0.042             0.259                0.116                  0.393
+     av1coconut_prop_lte      378       -0.067              0.025            0.021          -0.126              0.141             0.312                0.191                  0.394
+av1coconut_prop_lte_meas      378       -0.170              0.039            0.025          -0.190              0.125             0.307                0.171                  0.393
+  av1dav1d_flat_lte_meas      378       -0.027              0.006            0.025          -0.014              0.127             0.259                0.247                  0.393
+       av1dav1d_prop_lte      378        0.051              0.001            0.054          -0.009              0.262             0.295                0.560                  0.394
+  av1dav1d_prop_lte_meas      378        0.036              0.004            0.043          -0.002              0.214             0.346                0.373                  0.393
+          av1hw_prop_lte      378        0.062              0.000            0.000           0.002              0.263             0.272                0.724                  0.394
+     av1hw_prop_lte_meas      378        0.053              0.000            0.000           0.015              0.265             0.259                0.703                  0.393
+ av1sysdec_flat_lte_meas      378       -0.430              0.049            0.025          -0.161              0.055             0.259                0.143                  0.393
+      av1sysdec_prop_lte      378        0.001              0.022            0.035          -0.060              0.173             0.279                0.259                  0.394
+ av1sysdec_prop_lte_meas      378       -0.053              0.010            0.025          -0.086              0.134             0.314                0.211                  0.393

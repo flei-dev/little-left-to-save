@@ -1,0 +1,43 @@
+{
+ "model": "2311DRK48C",
+ "brand": "Redmi",
+ "android": "15",
+ "telephony": "{\n  \"data_enabled\": \"true\",\n  \"data_activity\": \"inout\",\n  \"data_state\": \"connected\",\n  \"device_id\": null,\n  \"device_software_version\": \"00\",\n  \"phone_count\": 2,\n  \"phone_type\": \"gsm\",\n  \"network_operator\": \"46000\",\n  \"network_operator_name\": \"中国移动\",\n  \"network_country_iso\": \"cn\",\n  \"network_type\": \"lte\",\n  \"network_roaming\": false,\n  \"sim_country_iso\": \"cn\",\n  \"sim_operator\": \"46007\",\n  \"sim_operator_name\": \"中国移动\",\n  \"sim_serial_number\": null,\n  \"sim_subscriber_id\": null,\n  \"sim_state\": \"ready\"\n}",
+ "battery": {
+  "present": true,
+  "technology": "Li-poly",
+  "health": "GOOD",
+  "plugged": "UNPLUGGED",
+  "status": "DISCHARGING",
+  "temperature": 36.3,
+  "voltage": 4215,
+  "current": 498000,
+  "current_average": 4800,
+  "percentage": 88,
+  "level": 88,
+  "scale": 100,
+  "charge_counter": 3792000,
+  "cycle": 1187
+ },
+ "time": "2026-11-13 22:02:25",
+ "net": "4g",
+ "url": "https://mirrors.tuna.tsinghua.edu.cn/kernel/v6.x/linux-6.6.tar.xz",
+ "size": 140064536,
+ "battery_end": {
+  "present": true,
+  "technology": "Li-poly",
+  "health": "GOOD",
+  "plugged": "UNPLUGGED",
+  "status": "DISCHARGING",
+  "temperature": 35.7,
+  "voltage": 4169,
+  "current": 367000,
+  "current_average": 4800,
+  "percentage": 85,
+  "level": 85,
+  "scale": 100,
+  "charge_counter": 3671000,
+  "cycle": 1187
+ },
+ "minutes": 11.401652665932973
+}

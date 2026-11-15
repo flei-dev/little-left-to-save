@@ -1,0 +1,58 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data.pkl --form short --split main --traces traces/lte/test --spt 3 --seed0 9000 --models anchors --sets base,oracle,decomp --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E2_decomp_short --workers 31
+E2_decomp_short: 1/48 blocks  6.6 min  ETA 309 min
+E2_decomp_short: 2/48 blocks  6.8 min  ETA 157 min
+E2_decomp_short: 3/48 blocks  6.9 min  ETA 103 min
+E2_decomp_short: 4/48 blocks  7.1 min  ETA 78 min
+E2_decomp_short: 5/48 blocks  8.7 min  ETA 75 min
+E2_decomp_short: 6/48 blocks  8.8 min  ETA 61 min
+E2_decomp_short: 7/48 blocks  9.0 min  ETA 53 min
+E2_decomp_short: 8/48 blocks  10.0 min  ETA 50 min
+E2_decomp_short: 9/48 blocks  10.5 min  ETA 46 min
+E2_decomp_short: 10/48 blocks  10.9 min  ETA 41 min
+E2_decomp_short: 11/48 blocks  11.0 min  ETA 37 min
+E2_decomp_short: 12/48 blocks  11.1 min  ETA 33 min
+E2_decomp_short: 13/48 blocks  11.5 min  ETA 31 min
+E2_decomp_short: 14/48 blocks  11.6 min  ETA 28 min
+E2_decomp_short: 15/48 blocks  11.6 min  ETA 26 min
+E2_decomp_short: 16/48 blocks  11.9 min  ETA 24 min
+E2_decomp_short: 17/48 blocks  12.2 min  ETA 22 min
+E2_decomp_short: 18/48 blocks  13.3 min  ETA 22 min
+E2_decomp_short: 19/48 blocks  13.4 min  ETA 21 min
+E2_decomp_short: 20/48 blocks  13.7 min  ETA 19 min
+E2_decomp_short: 21/48 blocks  13.7 min  ETA 18 min
+E2_decomp_short: 22/48 blocks  13.7 min  ETA 16 min
+E2_decomp_short: 23/48 blocks  13.8 min  ETA 15 min
+E2_decomp_short: 24/48 blocks  14.2 min  ETA 14 min
+E2_decomp_short: 25/48 blocks  14.4 min  ETA 13 min
+E2_decomp_short: 26/48 blocks  14.6 min  ETA 12 min
+E2_decomp_short: 27/48 blocks  14.6 min  ETA 11 min
+E2_decomp_short: 28/48 blocks  14.6 min  ETA 10 min
+E2_decomp_short: 29/48 blocks  14.7 min  ETA 10 min
+E2_decomp_short: 30/48 blocks  15.4 min  ETA 9 min
+E2_decomp_short: 31/48 blocks  15.6 min  ETA 9 min
+E2_decomp_short: 32/48 blocks  15.9 min  ETA 8 min
+E2_decomp_short: 33/48 blocks  16.1 min  ETA 7 min
+E2_decomp_short: 34/48 blocks  16.9 min  ETA 7 min
+E2_decomp_short: 35/48 blocks  17.4 min  ETA 6 min
+E2_decomp_short: 36/48 blocks  17.4 min  ETA 6 min
+E2_decomp_short: 37/48 blocks  20.0 min  ETA 6 min
+E2_decomp_short: 38/48 blocks  20.2 min  ETA 5 min
+E2_decomp_short: 39/48 blocks  20.6 min  ETA 5 min
+E2_decomp_short: 40/48 blocks  22.4 min  ETA 4 min
+E2_decomp_short: 41/48 blocks  22.6 min  ETA 4 min
+E2_decomp_short: 42/48 blocks  22.6 min  ETA 3 min
+E2_decomp_short: 43/48 blocks  23.1 min  ETA 3 min
+E2_decomp_short: 44/48 blocks  24.6 min  ETA 2 min
+E2_decomp_short: 45/48 blocks  25.7 min  ETA 2 min
+E2_decomp_short: 46/48 blocks  26.7 min  ETA 1 min
+E2_decomp_short: 47/48 blocks  26.8 min  ETA 1 min
+E2_decomp_short: 48/48 blocks  34.3 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze headroom /home/ubuntu/TMM/tmmexp/tmm_c/results/E2_decomp_short --boot 500
+figure skipped: ModuleNotFoundError: No module named 'matplotlib'
+     model mode variant  n_pairs  H_aware  H_oracle  Htop_aware  Htop_oracle  Hdata_aware  Hdata_oracle  H_rungonly  H_schedonly  H_watchonly  H_thronly  q_top_unaware  E_top_unaware  n_front_unaware
+legacy_lte                   378    0.224     0.466       0.224        0.466        0.290         0.716       0.000        0.043        0.444      0.258         95.671        125.711                1
+      meas                   378    0.044     0.192       0.000        0.213        0.239         0.699       0.018        0.004        0.183      0.128         95.851         96.127                6
+ modern_5g                   378    0.199     0.378       0.199        0.378        0.293         0.702       0.000        0.066        0.374      0.243         95.747        233.400                1
+modern_lte                   378    0.156     0.341       0.156        0.341        0.296         0.704       0.000        0.037        0.334      0.166         95.671        152.701                1

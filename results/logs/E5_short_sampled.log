@@ -1,0 +1,42 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data.pkl --form short --split main --traces traces/lte/test --spt 3 --seed0 9000 --models anchors --sets base,oracle --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_sampled --workers 31 --watch sampled
+E5_short_sampled: 1/32 blocks  2.1 min  ETA 66 min
+E5_short_sampled: 2/32 blocks  2.2 min  ETA 33 min
+E5_short_sampled: 3/32 blocks  2.2 min  ETA 21 min
+E5_short_sampled: 4/32 blocks  2.4 min  ETA 17 min
+E5_short_sampled: 5/32 blocks  3.7 min  ETA 20 min
+E5_short_sampled: 6/32 blocks  3.8 min  ETA 16 min
+E5_short_sampled: 7/32 blocks  3.8 min  ETA 14 min
+E5_short_sampled: 8/32 blocks  3.8 min  ETA 11 min
+E5_short_sampled: 9/32 blocks  4.2 min  ETA 11 min
+E5_short_sampled: 10/32 blocks  4.4 min  ETA 10 min
+E5_short_sampled: 11/32 blocks  4.6 min  ETA 9 min
+E5_short_sampled: 12/32 blocks  5.0 min  ETA 8 min
+E5_short_sampled: 13/32 blocks  5.5 min  ETA 8 min
+E5_short_sampled: 14/32 blocks  6.1 min  ETA 8 min
+E5_short_sampled: 15/32 blocks  6.1 min  ETA 7 min
+E5_short_sampled: 16/32 blocks  6.1 min  ETA 6 min
+E5_short_sampled: 17/32 blocks  6.7 min  ETA 6 min
+E5_short_sampled: 18/32 blocks  6.7 min  ETA 5 min
+E5_short_sampled: 19/32 blocks  7.2 min  ETA 5 min
+E5_short_sampled: 20/32 blocks  7.8 min  ETA 5 min
+E5_short_sampled: 21/32 blocks  8.1 min  ETA 4 min
+E5_short_sampled: 22/32 blocks  8.6 min  ETA 4 min
+E5_short_sampled: 23/32 blocks  8.8 min  ETA 3 min
+E5_short_sampled: 24/32 blocks  8.9 min  ETA 3 min
+E5_short_sampled: 25/32 blocks  9.0 min  ETA 3 min
+E5_short_sampled: 26/32 blocks  9.9 min  ETA 2 min
+E5_short_sampled: 27/32 blocks  10.2 min  ETA 2 min
+E5_short_sampled: 28/32 blocks  10.3 min  ETA 1 min
+E5_short_sampled: 29/32 blocks  11.4 min  ETA 1 min
+E5_short_sampled: 30/32 blocks  12.7 min  ETA 1 min
+E5_short_sampled: 31/32 blocks  14.7 min  ETA 0 min
+E5_short_sampled: 32/32 blocks  18.9 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze headroom /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_sampled --boot 500
+figure skipped: ModuleNotFoundError: No module named 'matplotlib'
+     model mode variant  n_pairs  H_aware  H_oracle  Htop_aware  Htop_oracle  Hdata_aware  Hdata_oracle  H_rungonly  H_schedonly  q_top_unaware  E_top_unaware  n_front_unaware
+legacy_lte                   378    0.213     0.451       0.206        0.453        0.250         0.671       0.000        0.076         99.224        120.428                2
+      meas                   378    0.036     0.161       0.000        0.174        0.138         0.620       0.016        0.004         99.311         92.589                8
+ modern_5g                   378    0.199     0.389       0.195        0.389        0.221         0.638       0.000        0.099         99.205        222.782                2
+modern_lte                   378    0.148     0.328       0.143        0.332        0.235         0.645       0.000        0.064         99.224        147.254                2

@@ -1,0 +1,2 @@
+model,n_pairs,n_drl,S_drl_vs_rules,coverage,G_drl,qtop_rules,qtop_drl,S_drl_vs_rules_lo,S_drl_vs_rules_hi,coverage_lo,coverage_hi,G_drl_lo,G_drl_hi,qtop_rules_lo,qtop_rules_hi,qtop_drl_lo,qtop_drl_hi
+meas,252,12,-0.1175453568942012,0.14285714285714285,0.0,108.30357233683269,95.87814293967352,-0.12163543838345116,-0.11039420356605019,0.125,0.2857142857142857,0.0,0.0,106.83572347012777,109.74994409197853,93.33841949001192,98.27474478653498

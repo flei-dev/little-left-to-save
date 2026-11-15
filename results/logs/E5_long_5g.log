@@ -1,0 +1,42 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/long_4s.pkl --form long --split main --traces traces/5g/test --spt 5 --seed0 9100 --models anchors --sets base,oracle --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_long_5g --workers 31
+E5_long_5g: 1/32 blocks  0.2 min  ETA 5 min
+E5_long_5g: 2/32 blocks  0.2 min  ETA 3 min
+E5_long_5g: 3/32 blocks  0.2 min  ETA 2 min
+E5_long_5g: 4/32 blocks  0.2 min  ETA 1 min
+E5_long_5g: 5/32 blocks  0.3 min  ETA 1 min
+E5_long_5g: 6/32 blocks  0.3 min  ETA 1 min
+E5_long_5g: 7/32 blocks  0.3 min  ETA 1 min
+E5_long_5g: 8/32 blocks  0.3 min  ETA 1 min
+E5_long_5g: 9/32 blocks  0.3 min  ETA 1 min
+E5_long_5g: 10/32 blocks  0.4 min  ETA 1 min
+E5_long_5g: 11/32 blocks  0.4 min  ETA 1 min
+E5_long_5g: 12/32 blocks  0.4 min  ETA 1 min
+E5_long_5g: 13/32 blocks  1.0 min  ETA 1 min
+E5_long_5g: 14/32 blocks  1.3 min  ETA 2 min
+E5_long_5g: 15/32 blocks  1.4 min  ETA 2 min
+E5_long_5g: 16/32 blocks  1.4 min  ETA 1 min
+E5_long_5g: 17/32 blocks  5.5 min  ETA 5 min
+E5_long_5g: 18/32 blocks  5.5 min  ETA 4 min
+E5_long_5g: 19/32 blocks  5.6 min  ETA 4 min
+E5_long_5g: 20/32 blocks  5.9 min  ETA 4 min
+E5_long_5g: 21/32 blocks  7.5 min  ETA 4 min
+E5_long_5g: 22/32 blocks  7.5 min  ETA 3 min
+E5_long_5g: 23/32 blocks  7.6 min  ETA 3 min
+E5_long_5g: 24/32 blocks  8.1 min  ETA 3 min
+E5_long_5g: 25/32 blocks  20.2 min  ETA 6 min
+E5_long_5g: 26/32 blocks  20.2 min  ETA 5 min
+E5_long_5g: 27/32 blocks  20.4 min  ETA 4 min
+E5_long_5g: 28/32 blocks  20.5 min  ETA 3 min
+E5_long_5g: 29/32 blocks  25.9 min  ETA 3 min
+E5_long_5g: 30/32 blocks  26.0 min  ETA 2 min
+E5_long_5g: 31/32 blocks  26.1 min  ETA 1 min
+E5_long_5g: 32/32 blocks  26.3 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze headroom /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_long_5g --boot 500
+figure skipped: ModuleNotFoundError: No module named 'matplotlib'
+     model mode variant  n_pairs  H_aware  H_oracle  Htop_aware  Htop_oracle  Hdata_aware  Hdata_oracle  H_rungonly  H_schedonly  q_top_unaware  E_top_unaware  n_front_unaware
+legacy_lte                   230    0.223     0.431         0.0        0.418        0.066         0.404       0.074        0.116        111.809        104.334                6
+      meas                   230    0.042     0.080         0.0        0.084        0.069         0.273       0.023        0.019        111.847         78.012                4
+ modern_5g                   230    0.170     0.337         0.0        0.323        0.054         0.341       0.023        0.123        111.809        171.945                6
+modern_lte                   230    0.144     0.284         0.0        0.277        0.057         0.375       0.027        0.096        111.809        124.380                6

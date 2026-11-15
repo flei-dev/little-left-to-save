@@ -1,0 +1,42 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data.pkl --form short --split main --traces traces/lte/test --spt 3 --seed0 9000 --models anchors --sets base,oracle --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_vmafstd --workers 31 --quality std
+E5_short_vmafstd: 1/32 blocks  1.9 min  ETA 58 min
+E5_short_vmafstd: 2/32 blocks  1.9 min  ETA 28 min
+E5_short_vmafstd: 3/32 blocks  1.9 min  ETA 18 min
+E5_short_vmafstd: 4/32 blocks  2.0 min  ETA 14 min
+E5_short_vmafstd: 5/32 blocks  2.5 min  ETA 14 min
+E5_short_vmafstd: 6/32 blocks  3.1 min  ETA 13 min
+E5_short_vmafstd: 7/32 blocks  3.2 min  ETA 11 min
+E5_short_vmafstd: 8/32 blocks  3.2 min  ETA 10 min
+E5_short_vmafstd: 9/32 blocks  3.3 min  ETA 8 min
+E5_short_vmafstd: 10/32 blocks  3.4 min  ETA 7 min
+E5_short_vmafstd: 11/32 blocks  3.6 min  ETA 7 min
+E5_short_vmafstd: 12/32 blocks  4.4 min  ETA 7 min
+E5_short_vmafstd: 13/32 blocks  4.7 min  ETA 7 min
+E5_short_vmafstd: 14/32 blocks  5.0 min  ETA 6 min
+E5_short_vmafstd: 15/32 blocks  5.1 min  ETA 6 min
+E5_short_vmafstd: 16/32 blocks  5.6 min  ETA 6 min
+E5_short_vmafstd: 17/32 blocks  5.6 min  ETA 5 min
+E5_short_vmafstd: 18/32 blocks  5.6 min  ETA 4 min
+E5_short_vmafstd: 19/32 blocks  6.0 min  ETA 4 min
+E5_short_vmafstd: 20/32 blocks  6.6 min  ETA 4 min
+E5_short_vmafstd: 21/32 blocks  6.8 min  ETA 4 min
+E5_short_vmafstd: 22/32 blocks  7.1 min  ETA 3 min
+E5_short_vmafstd: 23/32 blocks  7.6 min  ETA 3 min
+E5_short_vmafstd: 24/32 blocks  7.7 min  ETA 3 min
+E5_short_vmafstd: 25/32 blocks  7.7 min  ETA 2 min
+E5_short_vmafstd: 26/32 blocks  7.7 min  ETA 2 min
+E5_short_vmafstd: 27/32 blocks  8.2 min  ETA 2 min
+E5_short_vmafstd: 28/32 blocks  8.4 min  ETA 1 min
+E5_short_vmafstd: 29/32 blocks  9.4 min  ETA 1 min
+E5_short_vmafstd: 30/32 blocks  12.3 min  ETA 1 min
+E5_short_vmafstd: 31/32 blocks  14.0 min  ETA 0 min
+E5_short_vmafstd: 32/32 blocks  17.2 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze headroom /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_vmafstd --boot 500
+figure skipped: ModuleNotFoundError: No module named 'matplotlib'
+     model mode variant  n_pairs  H_aware  H_oracle  Htop_aware  Htop_oracle  Hdata_aware  Hdata_oracle  H_rungonly  H_schedonly  q_top_unaware  E_top_unaware  n_front_unaware
+legacy_lte                   378    0.174     0.456       0.171        0.463        0.179         0.659       0.000        0.036         83.555        134.303                3
+      meas                   378    0.028     0.187       0.000        0.210        0.152         0.611       0.006        0.002         83.597         97.897                9
+ modern_5g                   378    0.176     0.376       0.163        0.375        0.159         0.622       0.000        0.051         83.567        240.845                3
+modern_lte                   378    0.132     0.337       0.124        0.345        0.169         0.635       0.000        0.031         83.555        159.560                3

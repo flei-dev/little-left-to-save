@@ -1,0 +1,15 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data.pkl --form short --split main --traces traces/old/test --spt 4 --seed0 9200 --models meas --sets base --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_short_low --workers 31 --drl_runs /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.02_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.02_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.02_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.1_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.1_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.1_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.4_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.4_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam0.4_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam1.6_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam1.6_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_low_lam1.6_s2
+E3_short_low: 1/7 blocks  0.7 min  ETA 4 min
+E3_short_low: 2/7 blocks  1.2 min  ETA 3 min
+E3_short_low: 3/7 blocks  1.2 min  ETA 2 min
+E3_short_low: 4/7 blocks  2.3 min  ETA 2 min
+E3_short_low: 5/7 blocks  3.1 min  ETA 1 min
+E3_short_low: 6/7 blocks  4.0 min  ETA 1 min
+E3_short_low: 7/7 blocks  5.8 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze drl /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_short_low --boot 500
+/home/ubuntu/.local/lib/python3.10/site-packages/numpy/lib/_nanfunctions_impl.py:1409: RuntimeWarning: All-NaN slice encountered
+  return _nanquantile_unchecked(
+model  n_pairs  n_drl  S_drl_vs_rules  coverage  G_drl  qtop_rules  qtop_drl
+ meas      368     12             NaN       0.0    0.0      68.693    51.086

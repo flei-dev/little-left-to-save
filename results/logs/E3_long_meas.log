@@ -1,0 +1,13 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/long_4s.pkl --form long --split test --traces traces/lte/test --spt 2 --seed0 9200 --models meas --sets base --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_long_meas --workers 31 --drl_runs /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.02_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.02_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.02_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.1_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.1_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.1_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.4_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.4_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam0.4_s2,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam1.6_s0,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam1.6_s1,/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/long_meas_lam1.6_s2
+E3_long_meas: 1/7 blocks  0.1 min  ETA 1 min
+E3_long_meas: 2/7 blocks  0.1 min  ETA 0 min
+E3_long_meas: 3/7 blocks  0.2 min  ETA 0 min
+E3_long_meas: 4/7 blocks  0.8 min  ETA 1 min
+E3_long_meas: 5/7 blocks  2.2 min  ETA 1 min
+E3_long_meas: 6/7 blocks  4.9 min  ETA 1 min
+E3_long_meas: 7/7 blocks  7.1 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze drl /home/ubuntu/TMM/tmmexp/tmm_c/results/E3_long_meas --boot 500
+model  n_pairs  n_drl  S_drl_vs_rules  coverage  G_drl  qtop_rules  qtop_drl
+ meas      252     12          -0.118     0.143    0.0     108.304    95.878

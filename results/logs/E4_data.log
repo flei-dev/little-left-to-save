@@ -1,0 +1,12 @@
+
+$ /usr/bin/python3 -m cstudy.codec_data --h264 data/content_library_x264_2s.csv --av1_dir work/encoded_av1 --short data/svs_data_2s.pkl --out_dir work/data_codec
+feed: 1779 clips with AV1, 0 without; sessions kept 812 of 812 (main 406)
+long form: 66 of 66 windows with AV1
+        size_h264    size_av1  vmaf_h264  vmaf_av1  vmafp_h264  vmafp_av1  size_ratio
+kbps                                                                                 
+300     72977.703   64494.510     36.855    39.419      53.012     56.422       0.884
+750    181144.107  151013.877     62.415    64.598      80.138     82.334       0.834
+1200   289278.282  232822.025     74.840    76.375      90.089     91.391       0.805
+1850   446740.662  372592.205     84.814    86.294      96.208     97.200       0.834
+2850   684005.504  557961.707     91.205    92.726      98.502     99.225       0.816
+4300  1025014.382  813881.338     94.658    94.676      99.591     99.704       0.794

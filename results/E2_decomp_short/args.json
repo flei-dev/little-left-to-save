@@ -1,0 +1,24 @@
+{
+ "data": "data/svs_data.pkl",
+ "form": "short",
+ "split": "main",
+ "traces": "traces/lte/test",
+ "spt": 3,
+ "seed0": 9000,
+ "n_traces": 0,
+ "models": "anchors",
+ "sets": [
+  "base",
+  "oracle",
+  "decomp"
+ ],
+ "families": [],
+ "modes": [
+  ""
+ ],
+ "quality": "phone",
+ "watch": "real",
+ "drl_runs": [],
+ "workers": 31,
+ "out": "/home/ubuntu/TMM/tmmexp/tmm_c/results/E2_decomp_short"
+}

@@ -1,0 +1,42 @@
+
+$ /usr/bin/python3 -m cstudy.run --data data/svs_data_2s.pkl --form short --split main --traces traces/lte/test --spt 3 --seed0 9000 --models anchors --sets base,oracle --out /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_2s --workers 31
+E5_short_2s: 1/32 blocks  2.3 min  ETA 72 min
+E5_short_2s: 2/32 blocks  2.7 min  ETA 40 min
+E5_short_2s: 3/32 blocks  2.7 min  ETA 26 min
+E5_short_2s: 4/32 blocks  2.7 min  ETA 19 min
+E5_short_2s: 5/32 blocks  2.7 min  ETA 15 min
+E5_short_2s: 6/32 blocks  3.6 min  ETA 15 min
+E5_short_2s: 7/32 blocks  3.6 min  ETA 13 min
+E5_short_2s: 8/32 blocks  4.0 min  ETA 12 min
+E5_short_2s: 9/32 blocks  4.4 min  ETA 11 min
+E5_short_2s: 10/32 blocks  4.5 min  ETA 10 min
+E5_short_2s: 11/32 blocks  4.7 min  ETA 9 min
+E5_short_2s: 12/32 blocks  6.5 min  ETA 11 min
+E5_short_2s: 13/32 blocks  6.6 min  ETA 10 min
+E5_short_2s: 14/32 blocks  6.9 min  ETA 9 min
+E5_short_2s: 15/32 blocks  7.1 min  ETA 8 min
+E5_short_2s: 16/32 blocks  7.1 min  ETA 7 min
+E5_short_2s: 17/32 blocks  7.6 min  ETA 7 min
+E5_short_2s: 18/32 blocks  8.2 min  ETA 6 min
+E5_short_2s: 19/32 blocks  8.9 min  ETA 6 min
+E5_short_2s: 20/32 blocks  9.3 min  ETA 6 min
+E5_short_2s: 21/32 blocks  10.8 min  ETA 6 min
+E5_short_2s: 22/32 blocks  11.2 min  ETA 5 min
+E5_short_2s: 23/32 blocks  11.6 min  ETA 5 min
+E5_short_2s: 24/32 blocks  11.7 min  ETA 4 min
+E5_short_2s: 25/32 blocks  11.8 min  ETA 3 min
+E5_short_2s: 26/32 blocks  12.0 min  ETA 3 min
+E5_short_2s: 27/32 blocks  12.0 min  ETA 2 min
+E5_short_2s: 28/32 blocks  12.4 min  ETA 2 min
+E5_short_2s: 29/32 blocks  14.7 min  ETA 2 min
+E5_short_2s: 30/32 blocks  17.1 min  ETA 1 min
+E5_short_2s: 31/32 blocks  17.5 min  ETA 1 min
+E5_short_2s: 32/32 blocks  23.0 min  ETA 0 min
+
+$ /usr/bin/python3 -m cstudy.analyze headroom /home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_2s --boot 500
+figure skipped: ModuleNotFoundError: No module named 'matplotlib'
+     model mode variant  n_pairs  H_aware  H_oracle  Htop_aware  Htop_oracle  Hdata_aware  Hdata_oracle  H_rungonly  H_schedonly  q_top_unaware  E_top_unaware  n_front_unaware
+legacy_lte                   378    0.210     0.469       0.210        0.469        0.274         0.722       0.000        0.030         92.710        125.738                1
+      meas                   378    0.079     0.189       0.000        0.197        0.359         0.650       0.007        0.016         92.752         94.485                4
+ modern_5g                   378    0.232     0.400       0.184        0.389        0.293         0.715       0.030        0.055         92.745        233.374                3
+modern_lte                   378    0.174     0.350       0.146        0.341        0.287         0.721       0.014        0.034         92.710        152.568                2

@@ -1,0 +1,1 @@
+{"battery_end": {"present": true, "technology": "Unknown", "health": "GOOD", "plugged": "UNPLUGGED", "status": "DISCHARGING", "temperature": 25.0, "voltage": 4120, "current": -260000, "current_average": -212, "percentage": 76, "level": 76, "scale": 100, "charge_counter": 2762}}

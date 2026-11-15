@@ -1,0 +1,35 @@
+{
+ "data": "data/svs_data.pkl",
+ "form": "short",
+ "split": "main",
+ "traces": "traces/lte/test",
+ "spt": 3,
+ "seed0": 9200,
+ "n_traces": 0,
+ "models": "meas",
+ "sets": [
+  "base"
+ ],
+ "families": [],
+ "modes": [
+  ""
+ ],
+ "quality": "phone",
+ "watch": "real",
+ "drl_runs": [
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.02_s0",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.02_s1",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.02_s2",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.1_s0",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.1_s1",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.1_s2",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.4_s0",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.4_s1",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam0.4_s2",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam1.6_s0",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam1.6_s1",
+  "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_train/runs/short_meas_lam1.6_s2"
+ ],
+ "workers": 31,
+ "out": "/home/ubuntu/TMM/tmmexp/tmm_c/results/E3_short_meas"
+}

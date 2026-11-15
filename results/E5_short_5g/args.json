@@ -1,0 +1,23 @@
+{
+ "data": "data/svs_data.pkl",
+ "form": "short",
+ "split": "main",
+ "traces": "traces/5g/test",
+ "spt": 8,
+ "seed0": 9000,
+ "n_traces": 0,
+ "models": "anchors",
+ "sets": [
+  "base",
+  "oracle"
+ ],
+ "families": [],
+ "modes": [
+  ""
+ ],
+ "quality": "phone",
+ "watch": "real",
+ "drl_runs": [],
+ "workers": 31,
+ "out": "/home/ubuntu/TMM/tmmexp/tmm_c/results/E5_short_5g"
+}

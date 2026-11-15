@@ -1,0 +1,23 @@
+{
+ "data": "data/long_4s.pkl",
+ "form": "long",
+ "split": "main",
+ "traces": "traces/lte/test",
+ "spt": 2,
+ "seed0": 9100,
+ "n_traces": 0,
+ "models": "anchors",
+ "sets": [
+  "base",
+  "oracle"
+ ],
+ "families": [],
+ "modes": [
+  ""
+ ],
+ "quality": "std",
+ "watch": "real",
+ "drl_runs": [],
+ "workers": 31,
+ "out": "/home/ubuntu/TMM/tmmexp/tmm_c/results/E5_long_vmafstd"
+}

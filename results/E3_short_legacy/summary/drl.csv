@@ -1,0 +1,2 @@
+model,n_pairs,n_drl,S_drl_vs_rules,coverage,G_drl,qtop_rules,qtop_drl,S_drl_vs_rules_lo,S_drl_vs_rules_hi,coverage_lo,coverage_hi,G_drl_lo,G_drl_hi,qtop_rules_lo,qtop_rules_hi,qtop_drl_lo,qtop_drl_hi
+legacy_lte,378,12,-0.3625579900147705,0.2857142857142857,0.0,95.8586984223159,70.74493614580265,-0.3917158420766988,-0.3193377233222992,0.25,0.3333333333333333,0.0,0.0,93.74114289214371,98.0830692894875,68.96689145542958,72.97652646993834
