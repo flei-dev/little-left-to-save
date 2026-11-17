@@ -19,18 +19,19 @@ The study measures radio power on two smartphones, calibrates a common simulator
 | `traces/` | Network traces cut into 300-s windows: `lte/`, `5g/`, `old/`, each with `train/` and `test/`. |
 | `results/` | Summary tables of every stage (`<stage>/summary/*.csv`), configuration means, evaluation pairs, run arguments and logs. |
 | `phone/` | Termux measurement scripts, raw battery logs of both phones, and their analysis. |
-| `figures/` | Scripts that draw every figure of the paper and its supplement, and the PNGs. |
+| `figures/` | Scripts that draw every figure of the paper and its supplement. |
 
 ## Stages and where the paper's numbers come from
 
 | Stage (`results/`) | Paper | Key file → field |
 |---|---|---|
-| `E1E2_short`, `E1E2_long` | Fig. 1, Fig. 4, Sec. V-A | `summary/headroom.csv` → `H_aware`, `H_oracle`, `*_lo`, `*_hi` (rows `meas`, `legacy_lte`, `modern_lte`, `modern_5g`, and 75 grid rows `c*_T*_b*`) |
-| `E2_decomp_short` | Fig. 5, Sec. V-B | `summary/headroom.csv` → `H_watchonly`, `H_thronly`, `H_oracle` |
+| `E1E2_short`, `E1E2_long` | Fig. 2, Fig. 6, Sec. V-A | `summary/headroom.csv` → `H_aware`, `H_oracle`, `*_lo`, `*_hi` (rows `meas`, `legacy_lte`, `modern_lte`, `modern_5g`, and 75 grid rows `c*_T*_b*`) |
+| `energy_split_components.csv` | Fig. 7, Sec. V-B | `H_total`, `Eradio_share`, `Ec_share`, `Estall_share`, `U_*` (energy-unaware components) |
+| `E2_decomp_short` | Sec. V-B | `summary/headroom.csv` → `H_watchonly`, `H_thronly`, `H_oracle` |
 | `E3_<form>_<regime>` | Sec. V-C | `summary/drl.csv` → `G_drl`, `S_drl_vs_rules`, `coverage`, `qtop_*` |
-| `E4_<form>_<network>`, `E4_data` | Fig. 6, Sec. V-D | `summary/codec.csv` → `av1_vs_h264`, `greedy_vs_h264`, `both_vs_caprule`, `data_av1_vs_h264` (models `*_prop_lte_meas`; flat-scaling sensitivity `*_flat_lte_meas`) |
-| `E5_<form>_<variant>`, `E1E2_long/summary/genre.csv` | Fig. 7, Sec. V-E | `summary/headroom.csv` → `H_aware` |
-| `phone/data/` | Fig. 3, Sec. III-B/C | `tail_energy_table.json`; `python3 phone/analyze_decode.py` |
+| `E4_<form>_<network>`, `E4_data` | Fig. 8, Sec. V-D | `summary/codec.csv` → `av1_vs_h264`, `greedy_vs_h264`, `both_vs_caprule`, `data_av1_vs_h264` (models `*_prop_lte_meas`; flat-scaling sensitivity `*_flat_lte_meas`) |
+| `E5_<form>_<variant>`, `E1E2_long/summary/genre.csv` | Fig. 9, Sec. V-E | `summary/headroom.csv` → `H_aware` |
+| `phone/data/` | Fig. 5, Sec. III-B/C | `tail_energy_table.json`; `python3 phone/analyze_decode.py` |
 
 Intervals are 95% session-bootstrap percentile intervals (500 replicates; 300 for E4).
 
@@ -48,14 +49,21 @@ E4 re-encoding additionally needs FFmpeg with libx264, libsvtav1 and libvmaf, an
 
 Run every command from the repository root.
 
-**Figures from the shipped results** (a few seconds; outputs match `figures/out/`):
+**Figures from the shipped results** (a few seconds; 300-dpi PNGs identical to the figures in the paper):
 
 ```
+mkdir -p figures/out
 PYTHONPATH=code python3 figures/make_figs.py results figures/out
 PYTHONPATH=code python3 figures/make_figs2.py results results figures/out
 python3 figures/make_fig_phone.py figures/out
 python3 figures/fig2.py figures/out
+python3 figures/fig_problem.py . figures/out
+python3 figures/fig_energy_model.py figures/out
+python3 figures/decomp_components.py . results/energy_split_components.csv
+python3 figures/fig_energy_split.py results/energy_split_components.csv figures/out
 ```
+
+`decomp_components.py` splits the headroom of each anchor exactly into radio, base-playback, per-megabyte decoding and stall components, using the same Pareto fronts and interpolation as the headroom metric (Proposition 1 of the paper).
 
 `results/<stage>/summary/cfg_means.csv` holds the mean QoE, energy and data of every configuration under every energy model, from which the frontiers can be redrawn. The per-session raw outputs needed for the bootstrap are not included; a full re-run (below) regenerates them, and `python3 -m cstudy.analyze headroom results/<stage> --boot 500` then recomputes the summary tables.
 

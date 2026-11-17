@@ -5,3 +5,4 @@ run_*.log
 results_*.zip
 .DS_Store
 Thumbs.db
+figures/out/
